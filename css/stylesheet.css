@@ -1,6 +1,6 @@
 img {
   margin: auto;
-  width: 25%;
+  width: 20%;
   height: auto;
   border: 1rem solid;
   border-color: whitesmoke;
@@ -9,10 +9,12 @@ img {
 
 .name {
   height: auto;
+  width: 75%;
   border: 1rem solid;
   border-color: whitesmoke;
   box-sizing: border-box;
   background-color: #31343a;
+  float: left;
 }
 
 .name h1{
@@ -27,21 +29,28 @@ img {
 
 h3 {
   font-family: 'Courier New', Courier, monospace;
-  color:rgb(161, 250, 201);
+  color: rgb(161, 250, 201);
   margin-left: 1vw;
 }
 
 body {
-  border-color:mediumslateblue;
+  border-color: mediumslateblue;
 }
 
 .box
 {
-  width: 40%;
+  width: 35%;
   background-color: #31343a;
   border: 1rem solid;
-  border-color:whitesmoke;
-  box-sizing: border-box;
+  border-color: whitesmoke;
+  
+}
+
+.box p {
+  font-size:small;
+  font-family:'Courier New', Courier, monospace;
+  margin-left: 1em;
+  /* color:thistle; */
 }
 
 a 
@@ -53,10 +62,19 @@ a
 
 a:visited
 {
-  color:slategray;
+  color: slategray;
 }
 
 ul {
   list-style: "\01F984";
   padding-left: 2em;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: left;
+  color: teal;  
 }
