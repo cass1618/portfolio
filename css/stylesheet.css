@@ -51,9 +51,20 @@ body {
   box-sizing: border-box;
 }
 
+.story
+{
+  width: 50%;
+  background-color: #31343a;
+  border: 1rem solid;
+  border-color: whitesmoke;
+  float: left;
+  clear: left;
+  box-sizing: border-box;
+}
+
 .background
 {
-  width: 80%;
+  width: 50%;
   background-color: #31343a;
   border: 1rem solid;
   border-color: whitesmoke;
@@ -78,6 +89,7 @@ body {
   color:thistle;
 }
 
+p
 {
   font-family: 'Courier New', Courier, monospace;
   font-size: larger;
