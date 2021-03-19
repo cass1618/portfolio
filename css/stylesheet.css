@@ -2,24 +2,27 @@ img {
   margin: auto;
   width: 25%;
   height: auto;
+  border: 1rem solid;
+  border-color: whitesmoke;
   float: right;
 }
 
 .name {
   height: auto;
+  border: 1rem solid;
+  border-color: whitesmoke;
   box-sizing: border-box;
+  background-color: #31343a;
 }
 
 .name h1{
   font-family:fantasy;
-  color: rgb(230, 137, 217);
-  background-color: rgb(0, 0, 0);
+  color: rgb(230, 137, 217); 
 }
 
 .name h3{
   font-family: 'Courier New', Courier, monospace;
   color: turquoise;
-  background-color: rgb(0, 0, 0);
 }
 
 h3 {
@@ -29,15 +32,15 @@ h3 {
 }
 
 body {
-  background-color: #31343a;
   border-color:mediumslateblue;
 }
 
 .box
 {
-  background-color: rgb(0, 0, 0);
-  border: 5px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  width: 40%;
+  background-color: #31343a;
+  border: 1rem solid;
+  border-color:whitesmoke;
   box-sizing: border-box;
 }
 
