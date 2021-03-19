@@ -14,9 +14,10 @@ img {
   width: 80%;
   border: 1rem solid;
   border-color: whitesmoke;
-  box-sizing: border-box;
-  background-color: #31343a;
   float: left;
+  clear: left;
+  box-sizing: border-box;
+  background-color: #31343a
 }
 
 .name h1{
@@ -39,13 +40,25 @@ body {
   border-color: mediumslateblue;
 }
 
-.boxleft
+.projects
 {
-  width: 35%;
+  width: 80%;
   background-color: #31343a;
   border: 1rem solid;
   border-color: whitesmoke;
   float: left;
+  clear: left;
+  box-sizing: border-box;
+}
+
+.background
+{
+  width: 80%;
+  background-color: #31343a;
+  border: 1rem solid;
+  border-color: whitesmoke;
+  float: left;
+  clear: left;
 }
 
 .boxright
@@ -55,16 +68,16 @@ body {
   border: 1rem solid;
   border-color: whitesmoke;
   float: right;
+  clear: left
 }
 
 .box p {
   font-size:small;
   font-family:'Courier New', Courier, monospace;
   margin-left: 1em;
-  /* color:thistle; */
+  color:thistle;
 }
 
-a 
 {
   font-family: 'Courier New', Courier, monospace;
   font-size: larger;
