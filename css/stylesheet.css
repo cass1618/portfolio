@@ -3,6 +3,12 @@ img {
   height: auto;
 }
 
+.name {
+  width: 90%;
+  height: auto;
+  box-sizing: border-box;
+}
+
 .name h1{
   color: rgb(230, 137, 217);
   background-color: rgb(0, 0, 0);
@@ -11,4 +17,16 @@ img {
 .name h3{
   color: turquoise;
   background-color: rgb(0, 0, 0);
+}
+
+.body {
+  border: royalblue;
+}
+
+.card 
+{
+  background-color: rgb(0, 0, 0);
+  border: 5px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  box-sizing: border-box;
 }
