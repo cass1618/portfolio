@@ -1,51 +1,86 @@
-img {
-  margin: auto;
-  width: 20%;
-  height: auto;
-  border: 1rem solid;
-  border-color: whitesmoke;
-  float: right;
-  clear: right;
-  box-sizing: border-box;
+body 
+{
+  background-color: rgb(196, 240, 255);
 }
 
-.name {
-  height: auto;
-  width: 80%;
+.name 
+{
+  height: 292px;
+  width: 81%;
   border: 1rem solid;
   border-color: whitesmoke;
+  padding: 5px;
   float: left;
   clear: left;
   box-sizing: border-box;
   background-color: #31343a
 }
 
-.name h1{
-  font-family:fantasy;
-  color: rgb(230, 137, 217); 
+.top{
+  height:10%;
 }
 
-.name h3{
+.name h1
+{
+  font-size: 10vh;
+  font-family:fantasy;
+  color: rgb(230, 137, 217); 
+  padding: 5px;
+}
+
+.name h3
+{
   font-family: 'Courier New', Courier, monospace;
+  color: turquoise;
+  padding: 5px;
+}
+
+.light 
+{
+  color: #464646;
+}
+
+.light:hover
+{
   color: turquoise;
 }
 
-h3 {
+.box
+{
+  width: 19%;
+  border: 1rem solid;
+  border-color: whitesmoke;
+  padding: 5px;
+  float: right;
+  clear: right;
+  box-sizing: border-box;
+}
+
+img 
+{
+  border: 1rem solid;
+  border-color:#31343a;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+h3 
+{
   font-family: 'Courier New', Courier, monospace;
   color: rgb(161, 250, 201);
   margin-left: 1vw;
 }
 
-body {
-  border-color: mediumslateblue;
-}
-
 .projects
 {
-  width: 80%;
+  width: 100%;
   background-color: #31343a;
   border: 1rem solid;
   border-color: whitesmoke;
+  padding: 5px;
+  margin-top: 15px;
   float: left;
   clear: left;
   box-sizing: border-box;
@@ -53,10 +88,13 @@ body {
 
 .story
 {
-  width: 50%;
+  width: 49.5%;
   background-color: #31343a;
   border: 1rem solid;
   border-color: whitesmoke;
+  padding: 5px;
+  margin-top: 35px;
+  margin-right:1%;
   float: left;
   clear: left;
   box-sizing: border-box;
@@ -64,36 +102,28 @@ body {
 
 .background
 {
-  width: 50%;
+  width: 49.5%;
   background-color: #31343a;
   border: 1rem solid;
   border-color: whitesmoke;
-  float: left;
-  clear: left;
-}
-
-.boxright
-{
-  width: 35%;
-  background-color: #31343a;
-  border: 1rem solid;
-  border-color: whitesmoke;
+  padding: 5px;
+  margin-top: 10px;
   float: right;
-  clear: left
-}
-
-.box p {
-  font-size:small;
-  font-family:'Courier New', Courier, monospace;
-  margin-left: 1em;
-  color:thistle;
+  clear: right;
+  box-sizing: border-box;
 }
 
 p
 {
   font-family: 'Courier New', Courier, monospace;
   font-size: larger;
-  color:rgb(230, 137, 217);
+  color:peachpuff;
+}
+
+a
+{
+  font-family: 'Courier New', Courier, monospace;
+  color:darkcyan;
 }
 
 a:visited
@@ -110,13 +140,8 @@ ul span {
   margin-left:.5em;
 }
 
-.left{
-  float: left;
-  clear: left;
-}
-
-.right{
-  float: right;
-  clear: right;
-  color: teal;  
+ol {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  color: mediumpurple;
 }
