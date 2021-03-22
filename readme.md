@@ -36,6 +36,10 @@ Copywrite (c) Cassandra Copp 2021.
 [github.com/cass1618](http://github.com/cass1618)
 
 
+## NOTES
+
+I thoght we had to turn it in and be done with it until I found out Monday morning so I was frantically trying to finish after 5pm - Now I know I can turn in what I have by 5 and finish later :)
+
 
 
 
