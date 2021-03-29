@@ -17,6 +17,9 @@ It includes projects she has worked on as well as some personal information.
 
 ## Setup Instructions
 
+[Click here to access live web page](https://cass1618.github.io/portfolio)
+
+To download project and run locally:
 1. Clone the repository from GitHub
 1. Open the Portfolio folder
 1. Open "portfolio.html" using your web browser
@@ -36,9 +39,7 @@ Copywrite (c) Cassandra Copp 2021.
 [github.com/cass1618](http://github.com/cass1618)
 
 
-## NOTES
 
-I thoght we had to turn it in and be done with it until I found out Monday morning so I was frantically trying to finish after 5pm - Now I know I can turn in what I have by 5 and finish later :)
 
 
 
